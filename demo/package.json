@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "ra-data-json-server": "^2.1.5",
-    "ra-places-autocomplete": "file:../../packages/ra-places-autocomplete",
+    "ra-places-autocomplete": "file:../packages/ra-places-autocomplete",
     "react": "^16.3.1",
     "react-admin": "^2.1.5",
     "react-dom": "^16.3.1",
