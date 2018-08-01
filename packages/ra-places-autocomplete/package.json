@@ -1,0 +1,46 @@
+{
+  "name": "ra-places-autocomplete",
+  "version": "0.1.0",
+  "description": "<PlacesAutocomplete> component for react-admin. Uses google places api.",
+  "main": "lib/index.js",
+  "files": [
+    "LICENSE",
+    "*.md",
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihop/react-admin-addons.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react",
+    "react-admin",
+    "google-places",
+    "autocomplete"
+  ],
+  "author": "Leroy Hopson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lihop/react-admin-addons/issues"
+  },
+  "homepage": "https://github.com/lihop/react-admin-addons#readme",
+  "scripts": {
+    "build": "rimraf ./lib && NODE_ENV=production babel --quiet ./src -d ./lib --ignore spec.js",
+    "watch": "rimraf ./lib && NODE_ENV=production babel --watch ./src -d ./lib --ignore spec.js"
+  },
+  "peerDependencies": {
+    "react": "~16.0.0 || ~16.1.0 || ~16.2.0 || ~16.3.0 || ~16.4.0",
+    "react-admin": "^2.0.0",
+    "react-dom": "~16.0.0 || ~16.1.0 || ~16.2.0 || ~16.3.0 || ~16.4.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react-places-autocomplete": "^7.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "rimraf": "^2.6.2"
+  }
+}
