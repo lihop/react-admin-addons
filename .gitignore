@@ -4,4 +4,4 @@ lerna-debug.log
 node_modules
 lib
 es6
-.idea
+.idea/
