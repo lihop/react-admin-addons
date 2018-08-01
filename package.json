@@ -9,6 +9,7 @@
     "prettier": "prettier-eslint --write --list-different \"packages /*/src/**/*.js\" \"demo/src/**/*.js\""
   },
   "jest": {
+    "testURL": "http://localhost",
     "setupTestFrameworkScriptFile": "./test-setup.js"
   },
   "devDependencies": {
@@ -29,7 +30,10 @@
     "jest": "^23.4.2",
     "lerna": "^3.0.0-rc.0",
     "prettier-eslint-cli": "^4.7.1",
-    "raf": "^3.4.0"
+    "raf": "^3.4.0",
+    "react": "^16.4.1",
+    "react-admin": "^2.1.5",
+    "react-dom": "^16.4.1"
   },
   "workspaces": [
     "packages/*",
